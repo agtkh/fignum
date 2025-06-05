@@ -2,6 +2,8 @@
 
 fignum is a command-line utility written in C that displays sequences of numbers as large, easy-to-read ASCII art, similar to `figlet` but specialized for numerical output. It supports integers and decimal numbers, but not text or other characters.
 
+![screenshot01](ss01.png)
+
 ## Features
 
   * **Numerical Focus:** Designed specifically for rendering numbers as ASCII art.
