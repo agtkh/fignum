@@ -101,8 +101,8 @@ void print_number_ascii(const char *num_str) {
 
             // Print each character segment with appropriate background color
             for (int j = 0; j < 6; j++) { // Each segment is 6 characters wide
-                if (ASCII_DIGITS[index][line][j] == '#') {
-                    printf("%s ", BG_WHITE); // White background for '#'
+                if (ASCII_DIGITS[index][line][j] != ' ') {
+                    printf("%s%c", BG_WHITE, ASCII_DIGITS[index][line][j]); // White background
                 } else {
                     printf("%s ", BG_TRANSPARENT); // Transparent background for ' '
                 }
